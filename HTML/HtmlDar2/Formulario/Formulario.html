@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <div class="Nombre-Sexo">
+    <form action="Ejemplo.php" name="get">
+    <p>Nombre:
+        <input type="text" name="Nombre" size="40" placeholder="Escribe tu Nombre">
+    </p>
+    <p>Año de Nacimiento:
+        <input type="number" name="nacido" min="1900"> 
+     </p> 
+    <p>Sexo:
+        <input type="radio" name="hm" value="h">
+        Hombre
+        <input type="radio" name="hm" value="h">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar" >
+    </p>
+</form>
+</div>
+
+<div class="Nombre-Apellido-Nacionalidad">
+<form action="" method="get">
+    <p>Nombres</p>
+    <input type="text" name="Nombre" size="40" placeholder="Escribe tu Nombres"/>
+    <p>Apellidos</p>
+    <Input type="text" name="Apellidos" size="40" placeholder="Ecribe tus Apellidos"/>
+    <p>Nacionalidad</p>
+    <input type="text" name="Nacionalidad" size="20" placeholder="Nacionalidad">
+</form>
+</div>
+
+<div class="Nombre-Contraseña">
+<form action="" method="get">
+    <p>Usuario</p>
+    <input type="text" name="usuario" maxlength="6">
+    <p>Contraseña</p>
+    <input type="password" name="password" maxlength="9" required>
+    <button type="submit">Enviar</button>
+</form>
+</div>
+
+<div class="Fecha-Hora">
+<form action="" method="get">                                                               
+    <input type="date" name="Fecha">                                                        
+    <button type="submit">Enviar</button>                                                   
+    <br>                                                                                    
+    <br>                                                                                   
+    <input type="time" name="Hora">                                                         
+    <button type="submit">Enviar </button>  
+    <input type="checkbox" name="Doctor">Doctor</input>    
+    <input type="checkbox" name="Doctor" checked>Doctora</input>
+    <input type="checkbox" name="Doctor">Enfermo</input>  
+    <input type="number" name="numero">Escribe un numero</input>
+    <button type="submit">Enviar</button>  
+    <p>
+    <input type="text" name="texto" placeholder="Escriba su Nombre">                                     
+    </p>
+    <p>Comentario</p>
+    <textarea name="text" cols="30" rows="10" placeholder="Ingresa tu Comentario"></textarea>
+</form>
+</div>   
+<div class="imagen">
+    <img src="https://th.bing.com/th/id/OIP.ZFQg-KxXd4ZE_0IFYjBX5wHaDt?rs=1&pid=ImgDetMain" alt="img">
+</div>
+<div class="opcion">   
+    Seleccione un numero:
+<select name="menu" >
+    <opcion>Uno</opcion>
+    <opcion>Dos</opcion>
+    <opcion>Tres</opcion>
+    </select>        
+    <button type="submit">Enviar</button>                                                             
+</div> 
+<br>
+<br>
+<div class="opcion2">
+    Elija una opción:
+    <select name="Frutas">
+        <option value="1">Mandarina</option>
+        <option value="2">Naranja</option>
+        <option value="3">Pera</option>
+       </select>
+     <button type="submit"> Enviar</button>
+</div>
+<div>
+    <form class="multiple">
+   <p> Elija una o Varias opciones:</p>
+    <select name="Menu[]" size="5"multiple>
+        <option value="1">Uno</option>
+        <option value="2">Dos</option>
+        <option value="3">Tres</option>
+        <option value="4">Cuatro</option>
+        <option value="5">Cinco</option>
+        <option value="6">Seis</option>
+    </select>
+    <button type="submit"> Enviar</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+    border-radius: 1px solid gray;
+    cursor: pointer;
+  
+   
+
+}
+h1, h2,p{
+
+display: flex;
+justify-content: center;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    bottom: -36px;
+	opacity: 1;
+  
+   
+}
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.Imper{
+   width: 50% ;
+   display: ruby;
+}
+.List{
+    display: flow-root;
+    justify-content: center;
+
+}
+.a{
+    display: flex;
+}
