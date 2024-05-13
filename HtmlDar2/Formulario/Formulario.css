@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+    display:  inline-grid;
+    margin-top: 20px;
+}
+
+.Nombre-Sexo{
+   border: solid 5px red;
+   padding: 2%;
+   display: inline-table;
+   margin: 10px;
+}
+.Nombre-Apellido-Nacionalidad{
+    border: solid 5px rgb(0, 51, 255);
+    padding: 2%;
+    display: inline-table;
+    margin: 10px;
+ }
+ .Nombre-Contraseña{
+    border: solid 5px rgb(0, 255, 34);
+    padding: 2%;
+    display: inline-table;
+    margin: 10px;
+ }
+ .Fecha-Hora{
+    border: solid 5px rgb(255, 0, 119);
+    padding: 10%;
+    display: inline-table;
+    justify-content: center;
+    margin: 10px;
+ }
+ .imagen{
+    display: table-column;
+ }
+ .opcion{
+    border: solid 5px rgb(255, 242, 0);
+ }
+ .multiple{
+    border: solid 5px rgb(255, 0, 119);
+    display:-webkit-box;
+ }

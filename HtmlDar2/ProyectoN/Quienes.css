@@ -1,0 +1,78 @@
+
+body{
+  background-image: url('https://www.samtell.com/hs-fs/hubfs/Blogs/Four-Scrumptous-Tacos-Lined-up-with-ingredients-around-them-1.jpg?width=1800&name=Four-Scrumptous-Tacos-Lined-up-with-ingredients-around-them-1.jpg');
+    
+   /* background-color: rgb(212, 187, 123);*/
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f6f0f0;
+  padding: 10px;
+  border-radius: 0 0 0 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+
+
+h1:hover{
+    color: red;
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+h2:hover{
+    color: red;
+
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+/*
+.img:hover{
+    transform: scale(1.5);
+
+}*/
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+ 
